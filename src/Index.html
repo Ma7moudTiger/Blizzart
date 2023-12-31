@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>FairyTail</title>
+  <link rel="stylesheet" href="../dist/css/all.min.css">
+  <link href="../dist/output.css" rel="stylesheet">
+  <script src="https://cdn.tailwindcss.com"></script>
+</head>
+  <body>
+    <header class="bg-slate-900 drop-shadow-xl">
+      <div class="container p-6 flex justify-between mx-auto items-center">
+        <div class="logo">
+          <img src="../dist/images/logo-dark.png" alt="" width="200px">
+        </div>
+        <div class="links text-cyan-300 space-x-5 hidden md:block">
+          <a class="hover:text-white transition-all ease-in-out" href="#">Hello</a>
+          <a class="hover:text-white transition-all ease-in-out" href="#">Hello</a>
+          <a class="hover:text-white transition-all ease-in-out" href="#">Hello</a>
+          <a class="hover:text-white transition-all ease-in-out" href="#">Hello</a>
+          <a class="button rounded-full bg-cyan-300 hover:bg-cyan-500 text-white py-2 px-3 transition-all ease-in-out" href="#">Press Here 
+          </a>
+        </div>
+        <i class="fa-solid fa-bars block w-6 h-3 focus:opacity-100 text-white absolute right-10  md:hidden">
+          <ul class="secret opacity-0 block hover:opacity-100 relative w-fit h-fit float-right translate-y-0 space-y-4 py-6 px-14 rounded-xl  text-center md:hidden bg-cyan-100 text-cyan-300 text-sm font-ui-sans-sans">
+            <li>
+              <a class="hover:text-white" href="#">Hello</a>
+            </li>
+            <li>
+              <a class="hover:text-white" href="#">Hello</a>
+            </li>
+            <li>
+              <a class="hover:text-white" href="#">Hello</a>
+            </li>
+          </ul>
+        </i>
+      </div>
+    </header>
+    <nav class="hero px-6 pt-14 pb-10 mx-auto">
+      <div class="container justify-between mx-auto flex flex-col-reverse md:flex-row items-center">
+        <div class="intro md:w-1/2 flex flex-col space-y-10 p-y-10 text-center md:text-start">
+          <h1 class="font-bold text-4xl">
+            Rapidly build modern websites without ever leaving your HTML.
+          </h1>
+          <p class="animate-updown opacity-70">
+            A utility-first CSS framework packed with classes like flex, pt-4, text-center and rotate-90 that can be composed to build any design, directly in your markup.
+          </p>
+          <a class="py-3 px-6  mt-10 relative text-center mx-auto w-fit md:mx-0 bg-cyan-300 hover:bg-cyan-500 text-white rounded-full transition-all ease-in-out" href="#">Get Started</a>
+        </div>
+        <div class="pic md:w-1/2 mb-16 md:mb-0">
+          <img class="ok animate-wigz" src="../dist/images/undraw_learning_sketching_blue_nd4f.svg" alt="">
+        </div>
+      </div>
+    </nav>
+    <div class="testemon px-6 pt-10 pb-10 my-32">
+      <div class="container p-6 mx-auto flex flex-col text-center">
+        <div class="info space-y-6">
+          <h1 class="text-3xl font-bold">“Best practices” don't actually work.</h1>
+          <p class="opacity-70">I've written a few thousand words on why traditional “semantic class names” are the reason CSS is hard to maintain, but the truth is you're never going to believe me until you actually try it. If you can suppress the urge to retch long enough to give it a chance, I really think you'll wonder how you ever worked with CSS any other way.</p>
+        </div>
+        <div class="comments flex flex-col  md:flex-row space-y-20 md:space-y-0 md:space-x-10 mt-20">
+          <div class="comment p-4 bg-cyan-100  border border-cyan-300 hover:bg-white w-fit rounded-3xl transition-all ease-in-out cursor-pointer">
+            <img  class="w-20 h-20 rounded-full relative -top-12 left-1/2 -translate-x-1/2 border-4 border-white" src="../dist/images/team-04.png" alt="">
+            <div class="klam">
+              <h4 class="font-bold text-xl text-center">Mr X</h4>
+              <p class="text-center opacity-70">The way I wrote it changed frequently. It's not a coincidence Tailwind was released the same year. It might look wrong, but spend time with it and you'll realize semantic CSS was a 20 year mistake.</p>
+            </div>
+          </div>
+          <div class="comment p-4 bg-cyan-100  border border-cyan-300 hover:bg-white w-fit rounded-3xl transition-all ease-in-out cursor-pointer">
+            <img  class="w-20 h-20 rounded-full relative -top-12 left-1/2 -translate-x-1/2 border-4 border-white" src="../dist/images/team-01.png" alt="">
+            <div class="klam">
+              <h4 class="font-bold text-xl text-center">Mr X</h4>
+              <p class="text-center opacity-70">The way I wrote it changed frequently. It's not a coincidence Tailwind was released the same year. It might look wrong, but spend time with it and you'll realize semantic CSS was a 20 year mistake.</p>
+            </div>
+          </div>
+          <div class="comment p-4 bg-cyan-100  border border-cyan-300 hover:bg-white w-fit rounded-3xl transition-all ease-in-out cursor-pointer">
+            <img  class="w-20 h-20 rounded-full relative -top-12 left-1/2 -translate-x-1/2 border-4 border-white" src="../dist/images/team-03.png" alt="">
+            <div class="klam">
+              <h4 class="font-bold text-xl text-center">Mr X</h4>
+              <p class="text-center opacity-70">The way I wrote it changed frequently. It's not a coincidence Tailwind was released the same year. It might look wrong, but spend time with it and you'll realize semantic CSS was a 20 year mistake.</p>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </div>
+    <div class="noti bg-cyan-300">
+      <div class="container px-6 py-24 md:py-12 mx-auto items-center space-y-12 md:space-y-0 flex justify-between flex-col md:flex-row">
+        <h1 class="text-4xl font-bold">Move even faster with Tailwind UI.</h1>
+        <a class="py-3 px-6  text-center mt-10 md:mt-0 mx-auto w-fit md:mx-0 bg-white hover:bg-cyan-100 text-cyan-300 rounded-full transition-all ease-in-out" href="#">Get Started</a>
+      </div>
+      </div>
+      <footer class="bg-slate-900">
+        <div class="container mx-auto px-6 py-20 md:py-10 text-white flex flex-col-reverse md:flex-row justify-between items-center space-y-10 md:space-y-0">
+          <div class="ok mt-10 md:mt-0">
+            <img src="../dist/images/logo-dark.png" alt="" width="200px">
+            <div class="copyright">
+              &copy; 2023 <span class="text-cyan-300">Copyright</span>, All Rights Reserved 
+            </div>
+          </div>
+          <div class="okay flex flex-row space-x-20">
+            <div class="flex flex-col space-y-2">
+              <a href="" class="hover:text-cyan-300 transition-all">home</a>
+              <a href="" class="hover:text-cyan-300 transition-all">home</a>
+              <a href="" class="hover:text-cyan-300 transition-all">home</a>
+            </div>
+            <div class="flex flex-col space-y-2">
+              <a href="" class="hover:text-cyan-300 transition-all">home</a>
+              <a href="" class="hover:text-cyan-300 transition-all">home</a>
+              <a href="" class="hover:text-cyan-300 transition-all">home</a>
+            </div>
+          </div>
+          <div class="ok flex space-x-3 flex-col md:flex-row items-center">
+            <input class="flex-1 block rounded-full uppercase py-2 px-6 bg-cyan-100 text-cyan-500 placeholder:text-slate-900 outline-none" type="text" placeholder="subscribe to newsletter">
+            <a class="py-2 px-4 text-center mt-10 md:mt-0 mx-auto w-fit md:mx-0 bg-cyan-300 hover:bg-cyan-500 text-white rounded-full transition-all ease-in-out" href="#">Go</a>
+          </div>
+        </div>
+      </footer>
+    </div>
+  </body>
+</html>
+
